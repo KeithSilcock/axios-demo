@@ -35,7 +35,7 @@ axios.post(`${BASE_URL}/todos${API_KEY}`, todoItem)
         console.log(err.response);
 
         const newError = new Error('This is the new error');
-        console.log(newError)
+        console.log(newError);
 
         throw(newError);
 
